@@ -45,7 +45,7 @@ func GetCmd() *cobra.Command {
 	runCmd.Flags().String(flagnames.RTPSignalPort, "20001", "port used to communicate with Kamailio")
 	runCmd.Flags().String(flagnames.RTPImage, "zeljkoiphouse/rtpengine:latest", "rtp engine docker image name")
 	// letsencrypt flags
-	runCmd.Flags().String(flagnames.Timezone, "Europe/Belgrade", "set the timezone")
+	runCmd.Flags().String(flagnames.Timezone, "Europe/Gibraltar", "set the timezone")
 	runCmd.Flags().String(flagnames.Staging, "false", "set staging environment for LetsEncrypt node")
 
 	_ = runCmd.MarkFlagRequired(flagnames.SbcFqdn)

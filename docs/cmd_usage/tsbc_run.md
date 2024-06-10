@@ -36,7 +36,7 @@ tsbc run --kamailio-pbx-ip 192.168.1.1 --sbc-fqdn sbc.test1.com --rtp-public-ip 
       --rtp-signal-port string         port used to communicate with Kamailio (default "20001")
       --sbc-fqdn string                fqdn that Kamailio will advertise
       --staging string                 set staging environment for LetsEncrypt node (default "false")
-      --timezone string                set the timezone (default "Europe/Belgrade")
+      --timezone string                set the timezone (default "Europe/Gibraltar")
 ```
 
 ### SEE ALSO
